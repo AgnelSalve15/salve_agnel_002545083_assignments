@@ -222,6 +222,7 @@ public class CustomerWorkArea extends JFrame {
         return panel;
     }
     
+    
     private void refreshHistoryTable(DefaultTableModel tableModel) {
         tableModel.setRowCount(0);
         for (RentalRecord record : customer.getRentalHistory()) {
