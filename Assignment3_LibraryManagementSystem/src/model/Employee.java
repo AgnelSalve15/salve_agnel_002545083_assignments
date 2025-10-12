@@ -1,5 +1,6 @@
 package model;
 
+
 public abstract class Employee extends Person {
     private static int empIdCounter = 5000;
     private int employeeId;
