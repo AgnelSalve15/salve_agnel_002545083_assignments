@@ -6,6 +6,7 @@ public class BranchManager extends Employee {
     public BranchManager(String name, String username, String password, int experience) {
         super(name, username, password, experience);
     }
+ 
     
     @Override
     public String getRole() {
