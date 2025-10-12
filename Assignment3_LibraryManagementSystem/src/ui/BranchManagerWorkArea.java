@@ -181,6 +181,7 @@ public class BranchManagerWorkArea extends JFrame {
         panel.add(buttonPanel, BorderLayout.SOUTH);
         
         return panel;
+        
     }
     
     private void refreshRentalRecordTable(DefaultTableModel tableModel) {
