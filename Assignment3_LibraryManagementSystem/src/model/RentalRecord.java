@@ -25,6 +25,7 @@ public class RentalRecord {
         this.status = RentalStatus.RENTED;
     }
     
+    
     public int getId() { return id; }
     public Book getBook() { return book; }
     public Customer getCustomer() { return customer; }
